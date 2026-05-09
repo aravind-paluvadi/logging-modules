@@ -1,4 +1,4 @@
-# Logging Module
+# Logging Modules
 
 ## Overview:
 This module provides a simple logging mechanism for applications.
@@ -12,7 +12,7 @@ This module provides a simple logging mechanism for applications.
 1. Import the logging module:
    ```python
    import logging
-   from basic_logging_module import setup_logging
+   from logging_modules.basic_logging_module import setup_logging
    ```
 2. Configure the logging settings (e.g., log level, output format):
    ```python
@@ -32,23 +32,24 @@ You can customize it further to include additional handlers or formatters as nee
 
 ## Project Structure:
 ```
-logging_module/
-      ├── basic_logging_module      # Module for Basic logging configuration and setup
-      │   ├── __init__.py
-      │   └── basic_logging.py      # Basic logging setup and configuration
-      │
-      ├── logging_dict_config_module  # Module for Logging configuration using a dictionary
-      │   ├── __init__.py
-      │   └── logging_dict_config.py  # Logging configuration using a dictionary
-      │
-      ├── logging_handlers_module     # Module for Custom logging handlers (e.g., console, file)
-      │   ├── __init__.py
-      │   └── logging_handlers.py     # Custom logging handlers for console and file output
-      │
-      ├── logging_json_file_module    # Module for Logging configuration using a JSON file
-      │   ├── __init__.py
-      │   ├── logging_config.py       # Logging configuration using a JSON file
-      │   └── logging_json_file.py    # Logging setup using a JSON file
+logging_modules/
+      ├──logging_modules/   
+      │     ├── basic_logging_module      # Module for Basic logging configuration and setup
+      │     │     ├── __init__.py
+      │     │     └── basic_logging.py      # Basic logging setup and configuration
+      │     │
+      │     ├── logging_dict_config_module  # Module for Logging configuration using a dictionary
+      │     │     ├── __init__.py
+      │     │     └── logging_dict_config.py  # Logging configuration using a dictionary
+      │     │
+      │     ├── logging_handlers_module     # Module for Custom logging handlers (e.g., console, file)
+      │     │     ├── __init__.py
+      │     │     └── logging_handlers.py     # Custom logging handlers for console and file output
+      │     │
+      │     └── logging_json_file_module    # Module for Logging configuration using a JSON file
+      │           ├── __init__.py
+      │           ├── logging_config.py       # Logging configuration using a JSON file
+      │           └── logging_json_file.py    # Logging setup using a JSON file
       │
       ├── .gitignore
       └── README.md
