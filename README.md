@@ -33,7 +33,7 @@ You can customize it further to include additional handlers or formatters as nee
 ## Project Structure:
 ```
 logging_modules/
-      ├──logging_modules/   
+      ├── logging_modules/   
       │     ├── basic_logging_module      # Module for Basic logging configuration and setup
       │     │     ├── __init__.py
       │     │     └── basic_logging.py      # Basic logging setup and configuration
