@@ -1,5 +1,9 @@
 # Logging Modules
 
+<div align="center">
+    <img src="readme_resources/README.png" alt="AWS Utils" width="200"/>
+</div>
+
 ## Overview:
 This module provides a simple logging mechanism for applications.
 - It allows developers to log messages with different severity levels (e.g., INFO, WARNING, ERROR)
