@@ -51,8 +51,8 @@ logging_modules/
       │           ├── logging_config.py       # Logging configuration using a JSON file
       │           └── logging_json_file.py    # Logging setup using a JSON file
       │
-      ├── .gitignore
-      └── README.md
+      ├── .gitignore  # Git ignore file to exclude unnecessary files from version control
+      └── README.md   # README file for project documentation
 ```
 
 ## Benefits:
